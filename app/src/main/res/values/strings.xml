@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Independent Road crossing</string>
+    <string name="title_activity_signal">Signal</string>
+    <string name="title_activity_device_list_adapter">DeviceListAdapter</string>
+</resources>

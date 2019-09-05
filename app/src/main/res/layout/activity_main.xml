@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn_off"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bluetooth_off"/>
+    <!--<Button-->
+        <!--android:id="@+id/btn_off"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:text="Turn off"-->
+        <!--android:textSize="20dp"-->
+        <!--android:onClick="showAlertDialog"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btn_discover"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="Discoverable"-->
+        <!--android:textSize="20dp"/>-->
+    <Button
+        android:id="@+id/btn_pair"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:text="Pair"
+        android:background="#000"
+        android:textColor="#ffff"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"/>
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Message"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/btn_speak"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:textColor="#ffff"
+        android:text="Speak"
+        android:textSize="40dp"/>
+
+</LinearLayout>
